@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap);
 
-500;700;900&display=swap);
 @charset "UTF-8";
+
 [class^=_icon-]:before,
 [class*=" _icon-"]:before {
   font-family: "icons";
@@ -1185,6 +1185,7 @@ body {
 
 .item-services {
   background-color: #fff;
+  min-height: 100%;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1196,9 +1197,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-transition: all 0.2s ease 0s;
   -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
