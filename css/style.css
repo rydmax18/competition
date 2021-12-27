@@ -2525,6 +2525,7 @@ body {
     position: fixed;
     z-index: 50;
     width: 100%;
+    overflow: scroll;
   }
 
   .logo__icon {
@@ -2551,6 +2552,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 10px;
+    width: 100%;
     background-color: #f5f5f5;
   }
 
